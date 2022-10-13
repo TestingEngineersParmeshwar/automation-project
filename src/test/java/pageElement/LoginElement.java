@@ -15,6 +15,8 @@ public class LoginElement {
      @FindBy(xpath = "//input[@name='password']")
       public  WebElement password;
 
+      @FindBy(xpath = "//input[@name='btnLogin']")
+      public  WebElement click;
 
     public LoginElement(WebDriver driver) {
     this.driver = driver;

@@ -22,9 +22,10 @@ public class LoginStep {
 
     }
     @When("i enter username {string}, password {string} click to login")
-    public void i_enter_username_password_click_to_login(String username, String password) {
+    public void i_enter_username_password_click_to_login(String username, String password) throws InterruptedException {
     loginAction.username(username);
     loginAction.password(password);
+    loginAction.click();
 
     }
     @Then("login is successful")

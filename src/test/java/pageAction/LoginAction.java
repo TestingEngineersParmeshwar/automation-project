@@ -14,11 +14,17 @@ public LoginElement loginElement;
 
     }
 
-    public void username(String username){
+    public void username(String username) throws InterruptedException {
 
         loginElement.username.sendKeys(username);
+        Thread.sleep(2000);
     }
-     public void password(String password){
+     public void password(String password) throws InterruptedException {
         loginElement.password.sendKeys(password);
+        Thread.sleep(2000);
+     }
+     public void click() throws InterruptedException {
+        loginElement.click.click();
+        Thread.sleep(3000);
      }
 }
