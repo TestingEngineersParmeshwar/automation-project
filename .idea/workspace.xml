@@ -70,15 +70,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Open new account to manager" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Manager generate the customized statement form" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/NewAccount.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CustomizedStatement.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="automation-project" />
-      <option name="NAME_FILTER" value="^Open new account to manager$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Open new account to manager$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Open new account to manager" />
+      <option name="NAME_FILTER" value="^Manager generate the customized statement form$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Manager generate the customized statement form$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Manager generate the customized statement form" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -148,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Manager generate the customized statement form" />
         <item itemvalue="Cucumber Java.Scenario: user taking it self mini statement" />
         <item itemvalue="Cucumber Java.Scenario: delete account to the manager" />
         <item itemvalue="Cucumber Java.Scenario: Edit account from the manager" />
-        <item itemvalue="Cucumber Java.Scenario: Open new account to manager" />
       </list>
     </recent_temporary>
   </component>
