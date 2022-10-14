@@ -16,7 +16,7 @@ public class NewCustomerElement {
     public WebElement radio;
 
     @FindBy(name = "dob")
-    public WebDriver mmddyy;
+    public WebElement mmddyy;
 
     @FindBy(name = "addr")
     public WebElement address;
@@ -28,10 +28,10 @@ public class NewCustomerElement {
     public WebElement state;
 
     @FindBy(name = "pinno")
-    public WebElement pin;
+    public  WebElement pin;
 
     @FindBy(name = "telephoneno")
-    public WebElement telephone;
+    public  WebElement telephone;
 
     @FindBy(name = "emailid")
     public WebElement email;
