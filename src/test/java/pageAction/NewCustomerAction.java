@@ -16,8 +16,9 @@ public class NewCustomerAction {
         newCustomerElement.name.sendKeys(name);
         newCustomerElement.radio.click();
     }
-    public void date(String mmddyy){
+    public void date(String mmddyy) throws InterruptedException {
         newCustomerElement.mmddyy.sendKeys(mmddyy);
+        Thread.sleep(2000);
     }
     public void adress(String address){
         newCustomerElement.address.sendKeys(address);
@@ -29,15 +30,17 @@ public class NewCustomerAction {
     public void state(String state){
         newCustomerElement.state.sendKeys(state);
     }
-    public void Pin(String pin){
+    public void Pin(String pin) throws InterruptedException {
         newCustomerElement.pin.sendKeys(pin);
+        Thread.sleep(2000);
     }
     public void telephone(String number){
         newCustomerElement.telephone.sendKeys(number);
     }
-    public void email_id(String email){
+    public void email_id(String email) throws InterruptedException {
         newCustomerElement.email.sendKeys(email);
 
         newCustomerElement.submit.click();
+        Thread.sleep(2000);
     }
 }

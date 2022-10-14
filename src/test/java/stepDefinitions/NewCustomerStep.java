@@ -26,7 +26,7 @@ public class NewCustomerStep {
 
     }
     @When("add date of customer {string}")
-    public void add_date_of_customer(String date) {
+    public void add_date_of_customer(String date) throws InterruptedException {
         newCustomerAction.date(date);
     }
     @When("add address of customer {string}")
@@ -42,7 +42,7 @@ public class NewCustomerStep {
         newCustomerAction.state(state);
     }
     @When("add pin {string}")
-    public void add_pin(String pin) {
+    public void add_pin(String pin) throws InterruptedException {
         newCustomerAction.Pin(pin);
     }
     @When("add telephone number {string}")
@@ -50,7 +50,7 @@ public class NewCustomerStep {
         newCustomerAction.telephone(number);
     }
     @When("Email id {string}")
-    public void email_id(String email) {
+    public void email_id(String email) throws InterruptedException {
         newCustomerAction.email_id(email);
     }
     @Then("add customer should be successful")
