@@ -90,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: login with a valid credentials 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: delete account to the manager" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EditCustomer.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeletAccount.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="automation-project" />
-      <option name="NAME_FILTER" value="^login with a valid credentials 1$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^login with a valid credentials 1$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: login with a valid credentials 1" />
+      <option name="NAME_FILTER" value="^delete account to the manager$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^delete account to the manager$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: delete account to the manager" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -148,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: delete account to the manager" />
         <item itemvalue="Cucumber Java.Scenario: Edit account from the manager" />
         <item itemvalue="Cucumber Java.Scenario: Open new account to manager" />
         <item itemvalue="Cucumber Java.Scenario: login with valid credentials2" />
-        <item itemvalue="Cucumber Java.Scenario: login with a valid credentials 1" />
       </list>
     </recent_temporary>
   </component>
