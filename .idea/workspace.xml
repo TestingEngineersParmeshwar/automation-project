@@ -110,15 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: login with valid credentials2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user taking it self mini statement" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeletCustomer.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MiniStatement.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="automation-project" />
-      <option name="NAME_FILTER" value="^login with valid credentials2$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^login with valid credentials2$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: login with valid credentials2" />
+      <option name="NAME_FILTER" value="^user taking it self mini statement$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user taking it self mini statement$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user taking it self mini statement" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -148,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: user taking it self mini statement" />
         <item itemvalue="Cucumber Java.Scenario: delete account to the manager" />
         <item itemvalue="Cucumber Java.Scenario: Edit account from the manager" />
         <item itemvalue="Cucumber Java.Scenario: Open new account to manager" />
-        <item itemvalue="Cucumber Java.Scenario: login with valid credentials2" />
       </list>
     </recent_temporary>
   </component>
