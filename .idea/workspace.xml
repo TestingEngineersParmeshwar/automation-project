@@ -49,14 +49,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="Scenario: Login with valid credential" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Open new account to manager" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/NewAccount.feature" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="automation-project" />
-      <option name="NAME_FILTER" value="^Login with valid credential$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with valid credential$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with valid credential" />
+      <option name="NAME_FILTER" value="^Open new account to manager$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Open new account to manager$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Open new account to manager" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -146,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Open new account to manager" />
         <item itemvalue="Cucumber Java.Scenario: login with valid credentials2" />
         <item itemvalue="Cucumber Java.Scenario: login with a valid credentials 1" />
         <item itemvalue="Cucumber Java.Scenario: add new customer valid credential" />
-        <item itemvalue="Cucumber Java.Scenario: Login with valid credential" />
       </list>
     </recent_temporary>
   </component>
