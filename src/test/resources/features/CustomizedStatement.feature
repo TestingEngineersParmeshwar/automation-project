@@ -1,5 +1,5 @@
 Feature: this is customized statement feature
-  @Sc008
+  @Test09
   Scenario: Manager generate the customized statement form
     Given Open a application in url browser
     When Enter the account number is "123456789"

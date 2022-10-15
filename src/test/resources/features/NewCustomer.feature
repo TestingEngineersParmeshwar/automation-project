@@ -1,5 +1,5 @@
 Feature: This is add New Customer feature
-  @Sc001
+  @Test02
   Scenario: add new customer valid credential
     Given Open add customer url in browser
     When  add the customer name 'Parmeshwar'

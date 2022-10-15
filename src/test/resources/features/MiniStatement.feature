@@ -1,5 +1,5 @@
 Feature: this is mini statement feature
-  @Sc007
+  @Test08
   Scenario: user taking it self mini statement
     Given open application in url browsers
     When enter the account no is "123456789"

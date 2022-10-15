@@ -1,5 +1,5 @@
 Feature: this is delete account feature
-  @Sc006
+  @Test07
 Scenario: delete account to the manager
 Given Open the applications in a url browser
 When enter the account number is "123456789"

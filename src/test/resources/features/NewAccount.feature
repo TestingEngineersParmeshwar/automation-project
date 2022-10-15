@@ -1,5 +1,5 @@
 Feature: New Account
-  @Sc004
+  @Test05
   Scenario: Open new account to manager
     Given open the application a url browser
     When Enter customerId is "mngr447890"
